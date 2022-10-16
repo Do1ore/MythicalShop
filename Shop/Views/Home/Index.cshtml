@@ -1,0 +1,40 @@
+﻿
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+@{
+    ViewData["Title"] = "Милый дом";
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+
+    <div class="text-center">
+        <span id="blink5">Welcome sadafsadfasdf asdfasd sadfasdf &nbsp; asdfsadfasd fsdfsdfs </span>
+    </div>
+
+}
+else
+{
+    <div class="text-center">
+        <span id="blink5"> Создай свою мистику, чтобы наложить чары на своих ненавистных </span>
+    </div>
+
+    <hr />
+
+   
+}
+<div class="container">
+
+    <div class="text-left">
+
+        <h1>
+            О нас
+        </h1>
+    </div>
+
+    <p/>
+
+    <h5> Наша компания уже много лет на рынке, нам можно доверять</h5>
+
+</div>

@@ -1,0 +1,19 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+
+@{
+    ViewData["Title"] = "Мои зачерования";
+}
+@if (SignInManager.IsSignedIn(User))
+{
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+    </div>
+}
+else
+{
+    <h1 class="">  Создай свою мистику, чтобы наложить чары на своих ненавистных.</h1>
+
+}

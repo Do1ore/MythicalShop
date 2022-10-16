@@ -1,0 +1,157 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+@-webkit-keyframes pulsate {
+    50% {
+        color: #fff;
+        text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+    }
+}
+
+@keyframes pulsate {
+    50% {
+        color: #fff;
+        text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+    }
+}
+
+#blink7 {
+    color: #eabdd2;
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    font-size: 30px;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+}
+
+#blink6 {
+    color: rgb(245,245,245);
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+}
+
+
+@-webkit-keyframes blink6 {
+    10% {
+        transform: scale(1, 1) rotate(80deg);
+    }
+
+    20% {
+        transform: scale(0, 0) rotate(160deg);
+    }
+
+    100% {
+        transform: scale(0, 0) rotate(0deg);
+    }
+}
+
+@keyframes blink6 {
+    10% {
+        transform: scale(1, 1) rotate(80deg);
+    }
+
+    20% {
+        transform: scale(0, 0) rotate(160deg);
+    }
+
+    100% {
+        transform: scale(0, 0) rotate(0deg);
+    }
+}
+
+#blink5 {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-shadow: 0 0 10px #3d7a97;
+}
+
+    #blink5:after, #blink5:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-image: radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0) 30%), linear-gradient(45deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%), linear-gradient(135deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%);
+        -webkit-animation: blink6 10s linear infinite;
+        animation: blink6 10s linear infinite;
+        transform: scale(0, 0) rotate(0deg);
+    }
+
+    #blink5:before {
+        top: -30%;
+        right: 0;
+        left: auto;
+        -webkit-animation-delay: 5s;
+        animation-delay: 5s;
+    }
