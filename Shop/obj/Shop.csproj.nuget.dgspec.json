@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladx\\source\\repos\\Shop\\Shop\\Shop.csproj": {}
+    "C:\\Users\\vladx\\source\\repos\\SuperShop\\MythicalShop\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladx\\source\\repos\\Shop\\Shop\\Shop.csproj": {
+    "C:\\Users\\vladx\\source\\repos\\SuperShop\\MythicalShop\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladx\\source\\repos\\Shop\\Shop\\Shop.csproj",
+        "projectUniqueName": "C:\\Users\\vladx\\source\\repos\\SuperShop\\MythicalShop\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\Users\\vladx\\source\\repos\\Shop\\Shop\\Shop.csproj",
+        "projectPath": "C:\\Users\\vladx\\source\\repos\\SuperShop\\MythicalShop\\Shop\\Shop.csproj",
         "packagesPath": "C:\\Users\\vladx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladx\\source\\repos\\Shop\\Shop\\obj\\",
+        "outputPath": "C:\\Users\\vladx\\source\\repos\\SuperShop\\MythicalShop\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
