@@ -1,0 +1,58 @@
+﻿@using Shop.Models
+@model Tuple<IEnumerable<Rock>, IEnumerable<Niddle>, IEnumerable<Myinventory>>
+@{
+    ViewData["Title"] = "Милый дом";
+}
+
+
+<div class="text-center">
+    <h1 id="blink5" class="display-4">@ViewBag.Name</h1>
+    <span style="padding: 0px 20px;">&nbsp;</span>
+</div>
+<div class="text-center">
+    <span style="padding: 0px 20px;">&nbsp;</span>
+    <h3>Ваши зачарованные камни и иголки!</h3>
+    <span style="padding: 0px 20px;">&nbsp;</span>
+    <span style="padding: 0px 20px;">&nbsp;</span>
+</div>
+
+<div class="row">
+    @foreach (var myproduct in Model.Item3)
+    {
+        @foreach (var product in Model.Item1)
+        {
+            if (product.Name == myproduct.ProductName && myproduct.UserName == User.Identity.Name)
+            {
+                <div class="col-3">
+                    <div class="card border-primary mb-3" style="width: 18rem; height: 29rem">
+                        <img src="@product.Img" class="card-img-top" alt="..." style="height: 18rem">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text">@product.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        @foreach (var product in Model.Item2)
+        {
+            if (product.Name == myproduct.ProductName && myproduct.UserName == User.Identity.Name)
+            {
+                <div class="col-3">
+                    <div class="card border-primary mb-3" style="width: 18rem; height: 29rem">
+                        <img src="@product.Img" class="card-img-top" alt="..." style="height: 18rem">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text">@product.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+
+
+    }
+    <span style="padding: 0px 20px;">&nbsp;</span>
+
+</div>
+

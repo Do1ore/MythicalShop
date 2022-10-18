@@ -1180,3 +1180,6 @@ D:\ТРПО_MysticalShop\MythicalShop\Shop\obj\Debug\net5.0\refint\Shop.dll
 D:\ТРПО_MysticalShop\MythicalShop\Shop\obj\Debug\net5.0\Shop.pdb
 D:\ТРПО_MysticalShop\MythicalShop\Shop\obj\Debug\net5.0\Shop.genruntimeconfig.cache
 D:\ТРПО_MysticalShop\MythicalShop\Shop\obj\Debug\net5.0\ref\Shop.dll
+D:\ТРПО_MysticalShop\MythicalShop\Shop\obj\Debug\net5.0\Razor\Views\Home\RockCatalog.cshtml.g.cs
+D:\ТРПО_MysticalShop\MythicalShop\Shop\obj\Debug\net5.0\Razor\Views\Home\NiddleCatalog.cshtml.g.cs
+D:\ТРПО_MysticalShop\MythicalShop\Shop\obj\Debug\net5.0\Razor\Views\Home\MyInv.cshtml.g.cs
