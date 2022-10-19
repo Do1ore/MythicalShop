@@ -9,9 +9,6 @@
 @if (SignInManager.IsSignedIn(User))
 {
 
-    <div class="text-center">
-        <span id="blink5">хуй </span>
-    </div>
 
 }
 else
@@ -55,13 +52,25 @@ else
 
             <!-- Buttons -->
             <div class="text-center text-md-start align-content-center">
-                <a href="overview.html" class="btn btn-primary shadow lift me-1">
+            <a href="overview.html" id="blink6" class="btn btn-primary shadow lift me-1">
                     Создать свой камень<i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
                 </a>
-                <a href="docs/index.html" class="btn btn-primary-soft lift">
+            <a asp-area="" asp-controller="Home" asp-action="RockCatalog" id="blink6" class="btn btn-primary-soft lift">
                     Смотреть каталог
                     </a>
             </div>
+            <div>
+            <span style="padding: 0px 20px;">&nbsp;</span>
+            </div>
+            <div class="text-center text-md-start align-content-center">
+            <a href="overview.html" id="blink6" class="btn btn-primary shadow lift me-1">
+                Создать свою иголку<i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
+            </a>
+            <a asp-area="" asp-controller="Home" asp-action="NiddleCatalog" id="blink6" class="btn btn-primary-soft lift">
+                    Смотреть каталог
+                    </a>
+            </div>
+
 
         </div>
     </div>

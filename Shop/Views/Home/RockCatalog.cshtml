@@ -1,0 +1,43 @@
+﻿@using Shop.Models
+@model IEnumerable<Rock>
+
+@{
+    ViewData["Title"] = "Милый дом";
+}
+
+
+<div class="text-center">
+    <h1 id="blink5" class="display-4">@ViewBag.CatalogName</h1>
+    <span style="padding: 0px 20px;">&nbsp;</span>
+</div>
+<div class="text-center">
+    <span style="padding: 0px 20px;">&nbsp;</span>
+    <h3>Добавь в свою зачаровальню новые камни!</h3>
+    <span style="padding: 0px 20px;">&nbsp;</span>
+    <span style="padding: 0px 20px;">&nbsp;</span>
+</div>
+
+<div class="row"> 
+ @foreach (var product in Model)
+        {
+ <div class="col-4">
+    <div class="card border-primary mb-3" style="width: 18rem; height: 29rem">
+                <img src="@product.Img" class="card-img-top" alt="..." style="height: 18rem">
+        <div class="card-body">
+            <h5 class="card-title">@product.Name</h5>
+            <p class="card-text">@product.Description</p>
+             <form method="post" asp-action="Add" asp-controller="Home">
+             <input type="hidden" name="a" value="@User.Identity.Name" />
+             <input type="hidden" name="b" value="@product.Name" />
+             <input type="hidden" name="c" value="Rock" />
+             <input id="blink6" class="btn btn-primary" type="submit" value="Добавить" />
+             </form>
+        </div>
+    </div>
+ </div>
+
+        }
+    <span style="padding: 0px 20px;">&nbsp;</span>
+
+</div>
+
