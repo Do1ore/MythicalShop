@@ -1183,3 +1183,6 @@ D:\ТРПО_MysticalShop\MythicalShop\Shop\obj\Debug\net5.0\ref\Shop.dll
 D:\ТРПО_MysticalShop\MythicalShop\Shop\obj\Debug\net5.0\Razor\Views\Home\RockCatalog.cshtml.g.cs
 D:\ТРПО_MysticalShop\MythicalShop\Shop\obj\Debug\net5.0\Razor\Views\Home\NiddleCatalog.cshtml.g.cs
 D:\ТРПО_MysticalShop\MythicalShop\Shop\obj\Debug\net5.0\Razor\Views\Home\MyInv.cshtml.g.cs
+C:\Users\vladx\source\repos\SuperShop\MythicalShop\Shop\obj\Debug\net5.0\Razor\Views\Home\MyInv.cshtml.g.cs
+C:\Users\vladx\source\repos\SuperShop\MythicalShop\Shop\obj\Debug\net5.0\Razor\Views\Home\NiddleCatalog.cshtml.g.cs
+C:\Users\vladx\source\repos\SuperShop\MythicalShop\Shop\obj\Debug\net5.0\Razor\Views\Home\RockCatalog.cshtml.g.cs
