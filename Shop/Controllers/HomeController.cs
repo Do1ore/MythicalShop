@@ -27,6 +27,18 @@ namespace Shop.Controllers
         }
 
         [HttpPost]
+        public IActionResult Delete(int a)
+        {
+            Myinventory b = _context.Myinventorys.Find(a);
+
+            if (b != null)
+            {
+                _context.Myinventorys.Remove(b);
+                _context.SaveChanges();
+            }
+            return RedirectToAction("MyInv");
+        }
+        [HttpPost]
         public async Task<IActionResult> Add(string a, string b, string c)
         {
             my.UserName = a;
