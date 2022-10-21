@@ -6,11 +6,15 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
 }
-
+.header
+{
+    z-index: 99992323;
+}
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
 }
+
 
 .btn-primary {
   color: #fff;
@@ -155,3 +159,5 @@ body {
         -webkit-animation-delay: 5s;
         animation-delay: 5s;
     }
+
+
