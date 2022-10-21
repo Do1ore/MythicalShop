@@ -6,8 +6,8 @@
     minHeight: 200.00,
     minWidth: 200.00,
     scale: 1.00,
-    color1: 0x0,
-    color2: 0x8c00c0,
+    color1: 0x5300cf,
+    color2: 0xb1e3,
     size: 1.60,
     speed: 0.80
 })
