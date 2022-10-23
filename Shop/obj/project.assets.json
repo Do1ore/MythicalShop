@@ -7947,32 +7947,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vladx\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\sasha\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladx\\source\\repos\\SuperShop\\MythicalShop\\Shop\\Shop.csproj",
+      "projectUniqueName": "D:\\ТРПО_MysticalShop\\MythicalShop\\Shop\\Shop.csproj",
       "projectName": "Shop",
-      "projectPath": "C:\\Users\\vladx\\source\\repos\\SuperShop\\MythicalShop\\Shop\\Shop.csproj",
-      "packagesPath": "C:\\Users\\vladx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladx\\source\\repos\\SuperShop\\MythicalShop\\Shop\\obj\\",
+      "projectPath": "D:\\ТРПО_MysticalShop\\MythicalShop\\Shop\\Shop.csproj",
+      "packagesPath": "C:\\Users\\sasha\\.nuget\\packages\\",
+      "outputPath": "D:\\ТРПО_MysticalShop\\MythicalShop\\Shop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\vladx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8039,7 +8041,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
