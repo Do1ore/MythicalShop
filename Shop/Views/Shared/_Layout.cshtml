@@ -31,8 +31,15 @@
                         <li class="nav-item">
                             <a class="nav-link" id="blink6" asp-area="" asp-controller="Home" asp-action="Privacy">Воткнуть иглу</a>
                         </li>
-
                     </ul>
+                    <div class="dropdown">
+                        <button class="dropbtn" id="blink6">Для админа</button>
+                        <div class="dropdown-content">
+                            <a asp-area="" asp-controller="Rocks" asp-action="Index">Камни</a>
+                            <a asp-area="" asp-controller="Niddles" asp-action="Index">Иголки</a>
+                        </div>
+                    </div>
+
                     <partial name="_LoginPartial" />
                 </div>
             </div>
