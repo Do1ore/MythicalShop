@@ -143,6 +143,7 @@ body {
 
     #blink5:after, #blink5:before {
         content: "";
+        z-index: 999;
         position: absolute;
         top: 0;
         left: 0;
@@ -156,6 +157,7 @@ body {
     }
 
     #blink5:before {
+        z-index: 999;
         top: -30%;
         right: 0;
         left: auto;

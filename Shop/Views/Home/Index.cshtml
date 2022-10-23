@@ -4,79 +4,19 @@
 @{
     ViewData["Title"] = "Милый дом";
 }
-
-
-    <head>
-        <link rel="stylesheet" href="~css/site.css" />
-    </head>
-
-
-<intro id="intro" style=" position: absolute; z-index: 0; left: 0px; width: 100%; height: 100%;">
-
-</intro>
-=======
-    @*<intro id="intro" style=" position: absolute; z-index: 0; left: 0px; width: 100%; height: 100vw;">
-
-<<<<<<< HEAD
-</intro>
+@if (SignInManager.IsSignedIn(User))
+{
+@*    <head>
+    <link rel="stylesheet" href="~css/site.css" />
+</head>
 *@
-    <div class="container" style="margin-top: 10%; margin-bottom: 50px" >
-        <div class="row align-items-center mb-5">
-            <div class="col-12 col-md-5 col-lg-6 order-md-2">
-
-                <!-- Image -->
-                <div style="block-size:auto; background:#fcfcfc; -moz-box-shadow:0 0 30px #7cd8ff; -webkit-box-shadow:0 0 30px #7cd8ff; box-shadow:0 0 30px #7cd8ff;">
 
 
-                    <img src="pic/testimg.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 aos-init aos-animate" alt="..." data-aos="fade-up" data-aos-delay="100">
-                </div>
-            </div>
-            <div class="col-12 col-md-7 col-lg-6 order-md-1 aos-init aos-animate" data-aos="fade-up">
-
-                <!-- Heading -->
-                <h1 class="display-3 text-center text-md-start" style="font-size: 3vw; margin-top: 3vw; align-content: flex-end">
-                    Добро пожаловать в <span class="text-primary">Мистичекий магазин</span>. <br>
-                    Разгадайте все тайны.
-                </h1>
-
-                <!-- Text -->
-                <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8" style=" font-size: 1.2vw; ">
-                    Мы уже много лет на рынке. Наши клиента без ума от нашей прокции. Здесь вы сможете как создать свой <span class=" text-primary"> мистический предмет </span>, так и купить нашу разработку
-                </p>
-
-                <!-- Buttons -->
-                <div class="text-center text-md-start align-content-center">
-                    <a href="overview.html" id="blink6" class="btn btn-primary shadow lift me-1">
-                        Создать свой камень<i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
-                    </a>
-                    <a asp-area="" asp-controller="Home" asp-action="RockCatalog" id="blink6" class="btn btn-primary-soft lift">
-                        Смотреть каталог
-                    </a>
-                </div>
-                <div>
-                    <span style="padding: 0px 20px;">&nbsp;</span>
-                </div>
-                <div class="text-center text-md-start align-content-center">
-                    <a href="overview.html" id="blink6" class="btn btn-primary shadow lift me-1">
-                        Создать свою иголку<i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
-                    </a>
-                    <a asp-area="" asp-controller="Home" asp-action="NiddleCatalog" id="blink6" class="btn btn-primary-soft lift">
-                        Смотреть каталог
-                    </a>
-                </div>
-        </div>
-    </div>
-    </div>
-
-
-
-=======
 <intro id="intro" style=" position: absolute; z-index: 0; left: 0px; width: 100%; height: 100%;">
 
 </intro>
->>>>>>> d98885d825fa03e87bb84023aad5058e259e5d8c
 
-<div class="container" style="margin-top: 5%; margin-bottom: 50px">
+<div class="container" style="margin-top: 0%; margin-bottom: 0px">
     <div class="row align-items-center mb-5">
         <div class="col-12 col-md-5 col-lg-6 order-md-2">
 
@@ -119,94 +59,19 @@
                 <a asp-area="" asp-controller="Home" asp-action="NiddleCatalog" id="blink6" class="btn btn-primary-soft lift">
                     Смотреть каталог
                 </a>
-<<<<<<< HEAD
-=======
->>>>>>> 9cc5caa3e26f40c0a97ecfeb028a574a3ea418a2
->>>>>>> d98885d825fa03e87bb84023aad5058e259e5d8c
             </div>
+
+
         </div>
-
-
-
-
-
-        <section class="py-8 py-md-11">
-            <div class="container" style="margin-bottom: 3vw">
-                <div class="row">
-                    <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up">
-
-                        <!-- Icon -->
-                        <div class="icon text-primary mb-3" >
-                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M7 3h10a4 4 0 110 8H7a4 4 0 110-8zm0 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA"></path><path d="M7 13h10a4 4 0 110 8H7a4 4 0 110-8zm10 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA" opacity=".3"></path></g></svg>
-                        </div>
-
-                        <!-- Heading -->
-                        <h3>
-                            Гарнатия на всю жизнь
-                        </h3>
-
-                        <!-- Text -->
-                        <p class="text-muted mb-6 mb-md-0">
-                            Наши продукты настолько надежные, что их хватит на всю жизнь, и мы за это ручаемся. Около 100 лет нам потребовалось чтобы найти найти наилучшие материалы и сделать из них кое что стоещее
-                        </p>
-
-                    </div>
-                    <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
-
-                        <!-- Icon -->
-                        <div class="icon text-primary mb-3">
-                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M5.5 4h4A1.5 1.5 0 0111 5.5v1A1.5 1.5 0 019.5 8h-4A1.5 1.5 0 014 6.5v-1A1.5 1.5 0 015.5 4zm9 12h4a1.5 1.5 0 011.5 1.5v1a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-1a1.5 1.5 0 011.5-1.5z" fill="#335EEA"></path><path d="M5.5 10h4a1.5 1.5 0 011.5 1.5v7A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-7A1.5 1.5 0 015.5 10zm9-6h4A1.5 1.5 0 0120 5.5v7a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-7A1.5 1.5 0 0114.5 4z" fill="#335EEA" opacity=".3"></path></g></svg>
-                        </div>
-
-                        <!-- Heading -->
-                        <h3>
-                            Возврат денег гарантирован
-                        </h3>
-
-                        <!-- Text -->
-                        <p class="text-muted mb-6 mb-md-0">
-                            Если вам покаэется что товар не выполняет своих функций, то вы всегда сможете запросить возврат средств
-                        </p>
-
-                    </div>
-                    <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-
-                        <!-- Icon -->
-                        <div class="icon text-primary mb-3">
-                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M17.272 8.685a1 1 0 111.456-1.37l4 4.25a1 1 0 010 1.37l-4 4.25a1 1 0 01-1.456-1.37l3.355-3.565-3.355-3.565zm-10.544 0L3.373 12.25l3.355 3.565a1 1 0 01-1.456 1.37l-4-4.25a1 1 0 010-1.37l4-4.25a1 1 0 011.456 1.37z" fill="#335EEA"></path><rect fill="#335EEA" opacity=".3" transform="rotate(15 12 12)" x="11" y="4" width="2" height="16" rx="1"></rect></g></svg>
-                        </div>
-
-                        <!-- Heading -->
-                        <h3>
-                            Наш бренд был основан еще в 1923 году!
-                        </h3>
-
-                        <!-- Text -->
-                        <p class="text-muted mb-0">
-                            Я устал придумовать текст, мне пора отдохнуть
-                        </p>
-
-                    </div>
-                </div> <!-- / .row -->
-            </div> <!-- / .container -->
-        </section>
-
     </div>
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    @*---Scripts----*@
-    <script src="~/js/three.min.js"></script>
-=======
->>>>>>> d98885d825fa03e87bb84023aad5058e259e5d8c
     <section class="py-8 py-md-11">
 
         <div id="card" class="container" style="margin-bottom: 5vw; margin-top: 5vw">
             <div class="row">
                 <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up">
 
-                 
+
                     <!-- Icon -->
                     <svg class="icon bi bi-info-circle" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#FFE7FF" viewBox="0 0 16 16" style="margin-bottom: 1vw">
                         <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l3.103-3.104a.5.5 0 1 1 .708.708L4.5 12.207V14a.5.5 0 0 1-.146.354l-1.5 1.5ZM16 3.5a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182A23.825 23.825 0 0 1 5.8 12.323L8.31 9.81a1.5 1.5 0 0 0-2.122-2.122L3.657 10.22a8.827 8.827 0 0 1-1.039-1.57c-.798-1.576-.775-2.997-.213-4.093C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3Z" />
@@ -233,12 +98,12 @@
 
                     <!-- Heading -->
                     <h3>
-                       Почетное место
+                        Почетное место
                     </h3>
 
                     <!-- Text -->
                     <p class="text-muted mb-6 mb-md-0">
-                       Наш проект занимает почетное место в мире мистических услуг
+                        Наш проект занимает почетное место в мире мистических услуг
                     </p>
 
                 </div>
@@ -253,7 +118,7 @@
 
                     <!-- Heading -->
                     <h3>
-                       Стоимость
+                        Стоимость
                     </h3>
 
                     <!-- Text -->
@@ -270,23 +135,24 @@
 
 @*---Scripts----*@
 <script src="~/js/three.min.js"></script>
->>>>>>> 9cc5caa3e26f40c0a97ecfeb028a574a3ea418a2
 <script src="~/js/vanta.cells.min.js"></script>
 <script src="~/js/app.js"></script>
 }else{
     <head>
         <link rel="stylesheet" href="~css/site.css" />
     </head>
-    <div class="text-center" style="margin-top: 1vw; margin-bottom: 1vw">
+        <div class="text-center" style="margin-top: 1vw; margin-bottom: 1vw">
         <hr color=blanchedalmond>
-        <span id="blink5"> Создай свою мистику, чтобы наложить чары на своих ненавистных </span>
+        <span> Создай свою мистику, чтобы наложить чары на своих ненавистных </span>
         <hr color=blanchedalmond>
-    </div>
-    @*<intro id="intro" style=" position: absolute; z-index: 0; left: 0px; width: 100%; height: 100vw;">
 
-</intro>
-*@
-    <div class="container" style="margin-top: 5%; margin-bottom: 40px">
+    </div>
+
+    <intro id="intro" style=" position: absolute; z-index: 0; left: 0px; width: 100%; height: 100%;">
+
+    </intro>
+
+    <div class="container" style="margin-top: 0%; margin-bottom: 0px">
         <div class="row align-items-center mb-5">
             <div class="col-12 col-md-5 col-lg-6 order-md-2">
 
@@ -301,13 +167,13 @@
 
                 <!-- Heading -->
                 <h1 class="display-3 text-center text-md-start" style="font-size: 3vw; margin-top: 3vw; align-content: flex-end">
-                    Добро пожаловать в <span class="text-primary">Мистичекий магазин</span>. <br>
+                    Добро пожаловать в <span class="text-primary" style="text-shadow: 0 0 10px cyan,0 0 20px cyan,0 0 30px cyan,0 0 40px cyan;">Мистичекий магазин.</span> <br>
                     Разгадайте все тайны.
                 </h1>
 
                 <!-- Text -->
-                <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8" style=" font-size: 1.2vw; ">
-                    Мы уже много лет на рынке. Наши клиента без ума от нашей прокции. Здесь вы сможете как создать свой <span class=" text-primary"> мистический предмет </span>, так и купить нашу разработку
+                <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8" style="font-size: calc(10px + .5vw); ">
+                    Мы уже много лет на рынке. Наши клиента без ума от нашей прокции. Здесь вы сможете как создать своймистический предмет так и купить нашу разработку
                 </p>
 
                 <!-- Buttons -->
@@ -335,64 +201,65 @@
             </div>
         </div>
 
-
-
-
-
         <section class="py-8 py-md-11">
-            <div class="container" style="margin-bottom: 3vw">
+
+            <div id="card" class="container" style="margin-bottom: 5vw; margin-top: 5vw">
                 <div class="row">
                     <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up">
 
+
                         <!-- Icon -->
-                        <div class="icon text-primary mb-3">
-                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M7 3h10a4 4 0 110 8H7a4 4 0 110-8zm0 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA"></path><path d="M7 13h10a4 4 0 110 8H7a4 4 0 110-8zm10 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA" opacity=".3"></path></g></svg>
-                        </div>
+                        <svg class="icon bi bi-info-circle" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#FFE7FF" viewBox="0 0 16 16" style="margin-bottom: 1vw">
+                            <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l3.103-3.104a.5.5 0 1 1 .708.708L4.5 12.207V14a.5.5 0 0 1-.146.354l-1.5 1.5ZM16 3.5a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182A23.825 23.825 0 0 1 5.8 12.323L8.31 9.81a1.5 1.5 0 0 0-2.122-2.122L3.657 10.22a8.827 8.827 0 0 1-1.039-1.57c-.798-1.576-.775-2.997-.213-4.093C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3Z" />
+                        </svg>
 
                         <!-- Heading -->
                         <h3>
-                            Гарнатия на всю жизнь
+                            Создайте свою мистику
                         </h3>
 
                         <!-- Text -->
                         <p class="text-muted mb-6 mb-md-0">
-                            Наши продукты настолько надежные, что их хватит на всю жизнь, и мы за это ручаемся. Около 100 лет нам потребовалось чтобы найти найти наилучшие материалы и сделать из них кое что стоещее
+                            Наш проект позволит вам создать и использовать мистику
                         </p>
 
                     </div>
                     <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
 
                         <!-- Icon -->
-                        <div class="icon text-primary mb-3">
-                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M5.5 4h4A1.5 1.5 0 0111 5.5v1A1.5 1.5 0 019.5 8h-4A1.5 1.5 0 014 6.5v-1A1.5 1.5 0 015.5 4zm9 12h4a1.5 1.5 0 011.5 1.5v1a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-1a1.5 1.5 0 011.5-1.5z" fill="#335EEA"></path><path d="M5.5 10h4a1.5 1.5 0 011.5 1.5v7A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-7A1.5 1.5 0 015.5 10zm9-6h4A1.5 1.5 0 0120 5.5v7a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-7A1.5 1.5 0 0114.5 4z" fill="#335EEA" opacity=".3"></path></g></svg>
-                        </div>
+                        <svg class="bi bi-award" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#F2D9FF" viewBox="0 0 16 16" style="margin-bottom: 1vw">
+                            <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z" />
+                            <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+                        </svg>
 
                         <!-- Heading -->
                         <h3>
-                            Возврат денег гарантирован
+                            Почетное место
                         </h3>
 
                         <!-- Text -->
                         <p class="text-muted mb-6 mb-md-0">
-                            Если вам покаэется что товар не выполняет своих функций, то вы всегда сможете запросить возврат средств
+                            Наш проект занимает почетное место в мире мистических услуг
                         </p>
 
                     </div>
                     <div class="col-12 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
 
                         <!-- Icon -->
-                        <div class="icon text-primary mb-3">
-                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M17.272 8.685a1 1 0 111.456-1.37l4 4.25a1 1 0 010 1.37l-4 4.25a1 1 0 01-1.456-1.37l3.355-3.565-3.355-3.565zm-10.544 0L3.373 12.25l3.355 3.565a1 1 0 01-1.456 1.37l-4-4.25a1 1 0 010-1.37l4-4.25a1 1 0 011.456 1.37z" fill="#335EEA"></path><rect fill="#335EEA" opacity=".3" transform="rotate(15 12 12)" x="11" y="4" width="2" height="16" rx="1"></rect></g></svg>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#F2D9FF" class="bi bi-bell" viewBox="0 0 16 16" style="margin-bottom: 1vw">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                            </svg>
                         </div>
 
                         <!-- Heading -->
                         <h3>
-                            Наш бренд был основан еще в 1923 году!
+                            Стоимость
                         </h3>
 
                         <!-- Text -->
                         <p class="text-muted mb-0">
-                            Я устал придумовать текст, мне пора отдохнуть
+                            Вся продукция на сайте абсолютно бесплатная. Цели авторов не являются корыстными
                         </p>
 
                     </div>
@@ -401,12 +268,10 @@
         </section>
 
     </div>
-
     @*---Scripts----*@
     <script src="~/js/three.min.js"></script>
     <script src="~/js/vanta.cells.min.js"></script>
     <script src="~/js/app.js"></script>
-
 
 }
 
